@@ -17,7 +17,7 @@ This project demonstrates an AI-powered data extraction agent that uses SerpAPI 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Afnanksalal/info-scrapper/
+   git clone https://github.com/Afnanksalal/AI-Powered-Data-Extraction-Agent
    cd your-repo-name
    ```
 
