@@ -18,7 +18,7 @@ This project demonstrates an AI-powered data extraction agent that uses SerpAPI 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Afnanksalal/AI-Powered-Data-Extraction-Agent
-   cd your-repo-name
+   cd AI-Powered-Data-Extraction-Agent
    ```
 
 2. **Create and Activate a Virtual Environment:** (Recommended)
