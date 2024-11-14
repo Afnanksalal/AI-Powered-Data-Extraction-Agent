@@ -21,7 +21,7 @@ This project demonstrates an AI-powered data extraction agent that uses SerpAPI 
    cd AI-Powered-Data-Extraction-Agent
    ```
 
-2. **Create and Activate a Virtual Environment:** (Recommended)
+2. **Create and Activate a Virtual Environment:** (Recommended: Python 3.8.16)
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # On Linux/macOS
