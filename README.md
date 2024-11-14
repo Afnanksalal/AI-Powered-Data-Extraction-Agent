@@ -63,9 +63,9 @@ This project demonstrates an AI-powered data extraction agent that uses SerpAPI 
 
 ## Deploy to Koyeb
 
-Click the button below to deploy this project on Koyeb. Ensure you have your API keys ready to set as environment variables for `serpapi_api_key` and `groq_api_key` in the Koyeb configuration.
+Click the button below to deploy this project on Koyeb. Be sure to replace `"changeme"` with your actual API keys for `serpapi_api_key` and `groq_api_key` in the Koyeb configuration.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=info-scrapper&type=git&repository=Afnanksalal%2Finfo-scrapper&branch=main&builder=buildpack&env%5Bgroq_api_key%5D=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&env%5Bserpapi_api_key%5D=ae975b82e2d0d16a777343c34cfa77bf4d90fae3a930b34ac524c5cf36a9bea9&ports=8000%3Bhttp%3B%2F)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=info-scrapper&type=git&repository=Afnanksalal%2Finfo-scrapper&branch=main&builder=buildpack&env%5Bgroq_api_key%5D=changeme&env%5Bserpapi_api_key%5D=changeme&ports=8000%3Bhttp%3B%2F)
 
 ## Example CSV Files
 
