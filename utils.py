@@ -10,13 +10,11 @@ def load_config(config_file):
     Returns:
         dict: The loaded configuration as a dictionary, or None if an error occurs.
     """
-    # First, check if environment variables are set (assuming they are prefixed or named consistently)
     config = {
         'serpapi_api_key': os.getenv('serpapi_api_key'),
         'groq_api_key': os.getenv('groq_api_key')
     }
     
-    # If any key is missing from environment variables, load from the config file
     if None in config.values():
         try:
             with open(config_file, "r") as f:
