@@ -17,6 +17,6 @@ def dashboard():
         df = st.session_state["uploaded_df"]
         st.session_state["selected_column"] = st.selectbox("Select Column", df.columns.tolist())
         st.session_state["query_prompt"] = st.text_input(
-            "Enter Query Prompt (e.g: 'Give me contact information about {company}')",
+            "Enter Query Prompt (e.g: 'Give me contact details of {company}')",
             value="Give me contact information about {company}"
         )
