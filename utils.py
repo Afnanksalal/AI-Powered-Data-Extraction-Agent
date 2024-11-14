@@ -19,7 +19,6 @@ def load_config(config_file):
         try:
             with open(config_file, "r") as f:
                 file_config = yaml.safe_load(f) or {}
-                # Update only missing keys with file values
                 config = {**file_config, **{k: v for k, v in config.items() if v is not None}}
         except FileNotFoundError:
             print(f"Config file not found: {config_file}")
